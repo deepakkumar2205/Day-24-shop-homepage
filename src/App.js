@@ -1,7 +1,7 @@
 import './components/style.css'
 import Navbar from './components/Navbar'
 import  Header            from './components/Heading';
-import {Section,Content}  from './components/Content'
+import Content  from './components/Content'
 import Footer from './components/Footer'
 import cardDetails from './components/CardDetails'
 

@@ -68,4 +68,4 @@ let Content = (props) =>{
     )
 
 };
-export  {Section,Content}
+export default Content
