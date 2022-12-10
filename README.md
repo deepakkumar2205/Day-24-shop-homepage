@@ -1,3 +1,10 @@
+# Output:
+## Home page:
+  ![Screenshot (167)](https://user-images.githubusercontent.com/114420980/206841342-a695549f-701b-4d39-8824-24b240044133.png)
+## Cart Items page:
+  ![Screenshot (168)](https://user-images.githubusercontent.com/114420980/206841348-0982d128-f372-4c4d-9212-f546f6e31080.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
