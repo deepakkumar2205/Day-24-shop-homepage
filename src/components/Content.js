@@ -1,6 +1,6 @@
 import { AiFillStar } from "react-icons/ai";
 import cardDetails from "./CardDetails";
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 // ! this Section I'm exported in App.js
 let Section = (props)=>{
     return(
@@ -38,9 +38,11 @@ let Content = (props) =>{
   
     const [name,setName]=useState();
     const handleChange = (data)=>{
-          setName(data)
-          props.handleClick(name)
-     } 
+        setName(data)
+    } 
+    useEffect(()=>{
+        props.handleClick(name)
+    },[name])
 
     return (
            <Section   cont=
